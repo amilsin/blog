@@ -1,0 +1,45 @@
+.header {
+    padding: 0.5rem;
+    background: #eee;
+}
+.blog-list {
+    border-bottom: 1px solid #eee;
+}
+.blog-list-section {
+    border: 1px solid #eee;
+    padding: 4px;
+    box-shadow: 2px #eee;
+}
+
+.blog-list:last-child {
+    border-bottom: none;
+}
+
+.header h1{
+    font-size: 2rem;
+}
+.header-link {
+    text-align: right;
+    padding-top: 1rem;
+}
+.message {
+    color: #2E8B57;
+    text-align: center;
+}
+
+.add-blog-section, .message, .blog-list, .detail-content {
+    padding-top: 2rem;
+}
+.content {
+    padding-top: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 80%;
+}
+.fields, .author, .content {
+    padding-bottom: 1rem;
+}
+.label, .time, .author {
+    text-align: right;
+}
